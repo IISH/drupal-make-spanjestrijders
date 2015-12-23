@@ -119,6 +119,9 @@ projects[filefield_sources][version] = "1.10"
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.4"
 
+projects[flippy][subdir] = "contrib"
+projects[flippy][version] = "1.4"
+
 projects[galleryformatter][subdir] = "contrib"
 projects[galleryformatter][version] = "1.3"
 
@@ -196,6 +199,9 @@ projects[subscriptions][version] = "1.1"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.6"
+
+projects[translate_this][subdir] = "contrib"
+projects[translate_this][version] = "1.2"
 
 projects[translation_helpers][subdir] = "contrib"
 projects[translation_helpers][version] = "1.0"
