@@ -5,28 +5,16 @@ api = 2
 projects[drupal][version] = "7.41"
 
 ; Third party libraries, stored in a local git repository.
-libraries[plupload][type] = libraries
-libraries[plupload][download][type] = "git"
-libraries[plupload][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:plupload.git"
-libraries[plupload][download][branch] = "master"
-libraries[plupload][directory_name] = "plupload"
-
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:ckeditor.git"
-libraries[ckeditor][download][branch] = "master"
+libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
+libraries[ckeditor][download][branch] = "full/4.5.x"
 libraries[ckeditor][directory_name] = "ckeditor"
-
-libraries[jwplayer][type] = libraries
-libraries[jwplayer][download][type] = "git"
-libraries[jwplayer][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:jwplayer.git"
-libraries[jwplayer][download][branch] = "master"
-libraries[jwplayer][directory_name] = "jwplayer"
 
 libraries[colorbox][type] = libraries
 libraries[colorbox][download][type] = "git"
-libraries[colorbox][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:colorbox.git"
-libraries[colorbox][download][branch] = "master"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
+libraries[colorbox][download][branch] = "1.x"
 libraries[colorbox][directory_name] = "colorbox"
 
 ; Custom themes
@@ -35,12 +23,6 @@ projects[iisg][type] = "theme"
 projects[iisg][download][type] = "git"
 projects[iisg][download][url] = "git://github.com/IISH/drupal-theme-iisg.git"
 projects[iisg][download][branch] = "master"
-
-projects[lanlh][version] = "1.0"
-projects[lanlh][type] = "theme"
-projects[lanlh][download][type] = "git"
-projects[lanlh][download][url] = "git://github.com/IISH/drupal-theme-lanlh.git"
-projects[lanlh][download][branch] = "master"
 
 projects[spanjestrijders][version] = "1.0"
 projects[spanjestrijders][type] = "theme"
@@ -119,6 +101,9 @@ projects[filefield_sources][version] = "1.10"
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.4"
 
+projects[flippy][subdir] = "contrib"
+projects[flippy][version] = "1.4"
+
 projects[galleryformatter][subdir] = "contrib"
 projects[galleryformatter][version] = "1.3"
 
@@ -196,6 +181,9 @@ projects[subscriptions][version] = "1.1"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.6"
+
+projects[translate_this][subdir] = "contrib"
+projects[translate_this][version] = "1.2"
 
 projects[translation_helpers][subdir] = "contrib"
 projects[translation_helpers][version] = "1.0"
