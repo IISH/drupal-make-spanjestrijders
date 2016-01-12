@@ -31,11 +31,24 @@ projects[spanjestrijders][download][url] = "git://github.com/IISH/drupal-theme-s
 projects[spanjestrijders][download][branch] = "master"
 
 ; Custom modules
-projects[media_colorbox][type] = "module"
-projects[media_colorbox][download][type] = "http"
-projects[media_colorbox][download][url] = "http://git.drupal.org/project/media_colorbox.git"
-projects[media_colorbox][download][branch] = "master"
+;projects[media_colorbox][type] = "module"
+;projects[media_colorbox][download][type] = "http"
+;projects[media_colorbox][download][url] = "http://git.drupal.org/project/media_colorbox.git"
+;projects[media_colorbox][download][branch] = "master"
+;projects[media_colorbox][subdir] = "contrib"
+
+;; OF ???
+;;projects[media_colorbox][type] = "module"
+;;projects[media_colorbox][version] = "1.0"
+;;projects[media_colorbox][download][type] = "git"
+;; TODO: password needed
+;;projects[media_colorbox][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:colorbox_file.git"
+;;projects[media_colorbox][download][branch] = "master"
+;;projects[media_colorbox][subdir] = "contrib"
+
+; Replaces colorbox_file
 projects[media_colorbox][subdir] = "contrib"
+projects[media_colorbox][version] = "1.0-rc4"
 
 ; Custom build iish_blocks.
 ; Custom build iish_images.
@@ -109,6 +122,9 @@ projects[galleryformatter][version] = "1.3"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "2.1"
+
+projects[media_dailymotion][subdir] = "contrib"
+projects[media_dailymotion][version] = "1.1"
 
 projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][version] = "3.0"
