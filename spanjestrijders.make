@@ -51,6 +51,13 @@ projects[media_colorbox][subdir] = "contrib"
 projects[media_colorbox][version] = "1.0-rc4"
 
 ; Custom build iish_blocks.
+projects[iish_blocks][version] = "1.0"
+projects[iish_blocks][type] = "module"
+projects[iish_blocks][download][type] = "git"
+projects[iish_blocks][download][url] = "git://github.com/IISH/drupal-module-blocks.git"
+projects[iish_blocks][download][branch] = "master"
+projects[iish_blocks][subdir] = "custom"
+
 ; Custom build iish_images.
 projects[iish_images][version] = "1.0"
 projects[iish_images][type] = "module"
@@ -218,6 +225,9 @@ projects[webform][version] = "4.12"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
+
+projects[file_entity][subdir] = "contrib"
+projects[file_entity][version] = "2.0-beta2"
 
 ; Drupal Themes
 projects[omega][version] = "3.1"
