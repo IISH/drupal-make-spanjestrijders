@@ -18,17 +18,17 @@ libraries[colorbox][download][branch] = "1.x"
 libraries[colorbox][directory_name] = "colorbox"
 
 ; Custom themes
-projects[iisg][version] = "1.0"
-projects[iisg][type] = "theme"
-projects[iisg][download][type] = "git"
-projects[iisg][download][url] = "git://github.com/IISH/drupal-theme-iisg.git"
-projects[iisg][download][branch] = "master"
+;projects[iisg][version] = "1.0"
+;projects[iisg][type] = "theme"
+;projects[iisg][download][type] = "git"
+;projects[iisg][download][url] = "git://github.com/IISH/drupal-theme-iisg.git"
+;projects[iisg][download][branch] = "master"
 
-projects[spanjestrijders][version] = "1.0"
-projects[spanjestrijders][type] = "theme"
-projects[spanjestrijders][download][type] = "git"
-projects[spanjestrijders][download][url] = "git://github.com/IISH/drupal-theme-spanjestrijders.git"
-projects[spanjestrijders][download][branch] = "master"
+;projects[spanjestrijders][version] = "1.0"
+;projects[spanjestrijders][type] = "theme"
+;projects[spanjestrijders][download][type] = "git"
+;projects[spanjestrijders][download][url] = "git://github.com/IISH/drupal-theme-spanjestrijders.git"
+;projects[spanjestrijders][download][branch] = "master"
 
 ; Custom build iish_blocks.
 projects[iish_blocks][version] = "1.0"
@@ -117,6 +117,9 @@ projects[nice_menus][version] = "2.5"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.3"
+
+projects[smtp][subdir] = "contrib"
+projects[smtp][version] = "1.3"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.6"
