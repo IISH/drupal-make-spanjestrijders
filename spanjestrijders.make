@@ -5,10 +5,17 @@ api = 2
 projects[drupal][version] = "7.41"
 
 ; Third party libraries, stored in a local git repository.
+
+; don't use version 4.x, use version 3.6.x !!!
+;libraries[ckeditor][type] = libraries
+;libraries[ckeditor][download][type] = "git"
+;libraries[ckeditor][download][url] = "git://github.com/ckeditor/ckeditor-releases.git"
+;libraries[ckeditor][download][branch] = "full/4.5.x"
+;libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "git://github.com/ckeditor/ckeditor-releases.git"
-libraries[ckeditor][download][branch] = "full/4.5.x"
+libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor.git"
+libraries[ckeditor][download][branch] = "3.6.0"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[colorbox][type] = libraries
@@ -17,7 +24,20 @@ libraries[colorbox][download][url] = "git://github.com/jackmoore/colorbox.git"
 libraries[colorbox][download][branch] = "1.x"
 libraries[colorbox][directory_name] = "colorbox"
 
-; Custom theme spanjestrijders
+; mailchimp API library
+; don't use the new version but the old version
+;libraries[mailchimp][type] = libraries
+;libraries[mailchimp][download][type] = "get"
+;libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
+;libraries[mailchimp][directory_name] = "mailchimp"
+;libraries[mailchimp][destination] = "libraries"
+libraries[mailchimp][type] = libraries
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
+libraries[mailchimp][directory_name] = "mailchimp"
+libraries[mailchimp][destination] = "libraries"
+
+; Custom theme iisg
 projects[iisg][version] = "1.0"
 projects[iisg][type] = "theme"
 projects[iisg][download][type] = "git"
@@ -100,6 +120,9 @@ projects[libraries][version] = "2.2"
 
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.3"
+
+projects[mailchimp][subdir] = "contrib"
+projects[mailchimp][version] = "2.12"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-beta1"
