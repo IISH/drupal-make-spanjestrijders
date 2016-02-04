@@ -112,6 +112,9 @@ projects[flippy][version] = "1.4"
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "2.1"
 
+projects[honeypot][subdir] = "contrib"
+projects[honeypot][version] = "1.17"
+
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 
@@ -156,6 +159,9 @@ projects[transliteration][version] = "3.2"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.13"
+
+projects[webform][subdir] = "contrib"
+projects[webform][version] = "4.12"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
