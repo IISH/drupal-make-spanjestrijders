@@ -1,0 +1,87 @@
+; media colorbox
+;projects[media_colorbox][type] = "module"
+;projects[media_colorbox][download][type] = "http"
+;projects[media_colorbox][download][url] = "http://git.drupal.org/project/media_colorbox.git"
+;projects[media_colorbox][download][branch] = "master"
+;projects[media_colorbox][subdir] = "contrib"
+;; OR ???
+;;projects[media_colorbox][type] = "module"
+;;projects[media_colorbox][version] = "1.0"
+;;projects[media_colorbox][download][type] = "git"
+;; TODO: does not work password needed
+;;projects[media_colorbox][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:colorbox_file.git"
+;;projects[media_colorbox][download][branch] = "master"
+;;projects[media_colorbox][subdir] = "contrib"
+
+; Drupal Modules
+projects[backup_migrate][subdir] = "contrib"
+projects[backup_migrate][version] = "3.1"
+
+projects[delta][subdir] = "contrib"
+projects[delta][version] = "3.0-beta11"
+
+projects[feed_import][subdir] = "contrib"
+projects[feed_import][version] = "3.4"
+
+projects[filefield_sources][subdir] = "contrib"
+projects[filefield_sources][version] = "1.10"
+
+projects[galleryformatter][subdir] = "contrib"
+projects[galleryformatter][version] = "1.3"
+
+projects[media_dailymotion][subdir] = "contrib"
+projects[media_dailymotion][version] = "1.1"
+
+projects[media_youtube][subdir] = "contrib"
+projects[media_youtube][version] = "3.0"
+
+projects[filefield_sources_plupload][subdir] = "contrib"
+projects[filefield_sources_plupload][version] = "1.1"
+
+projects[i18n][subdir] = "contrib"
+projects[i18n][version] = "1.13"
+
+projects[i18nviews][subdir] = "contrib"
+projects[i18nviews][version] = "3.x-dev"
+
+projects[jw_player][subdir] = "contrib"
+projects[jw_player][version] = "1.0-alpha1"
+
+projects[l10n_update][subdir] = "contrib"
+projects[l10n_update][version] = "2.0"
+
+projects[ldap][subdir] = "contrib"
+projects[ldap][version] = "2.0-beta8"
+
+projects[mail_edit][subdir] = "contrib"
+projects[mail_edit][version] = "1.1"
+
+projects[mediafront][subdir] = "contrib"
+projects[mediafront][version] = "2.2"
+
+projects[plupload][subdir] = "contrib"
+projects[plupload][version] = "1.7"
+
+projects[print][subdir] = "contrib"
+projects[print][version] = "2.0"
+
+projects[r4032login][subdir] = "contrib"
+projects[r4032login][version] = "1.8"
+
+projects[realname][subdir] = "contrib"
+projects[realname][version] = "1.2"
+
+projects[shoutbox][subdir] = "contrib"
+projects[shoutbox][version] = "1.0-beta1"
+
+projects[site_map][subdir] = "contrib"
+projects[site_map][version] = "1.3"
+
+projects[subscriptions][subdir] = "contrib"
+projects[subscriptions][version] = "1.1"
+
+projects[translation_helpers][subdir] = "contrib"
+projects[translation_helpers][version] = "1.0"
+
+projects[variable][subdir] = "contrib"
+projects[variable][version] = "2.5"
