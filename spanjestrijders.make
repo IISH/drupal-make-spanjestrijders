@@ -76,12 +76,12 @@ projects[iish_language][download][branch] = "master"
 projects[iish_language][subdir] = "custom"
 
 ; modified version of translate_this
-projects[iisg_translate_this][version] = "1.0"
-projects[iisg_translate_this][type] = "module"
-projects[iisg_translate_this][download][type] = "git"
-projects[iisg_translate_this][download][url] = "git@github.com:IISH/iisg-translate-this.git"
-projects[iisg_translate_this][download][branch] = "master"
-projects[iisg_translate_this][subdir] = "custom"
+;projects[iisg_translate_this][version] = "1.0"
+;projects[iisg_translate_this][type] = "module"
+;projects[iisg_translate_this][download][type] = "git"
+;projects[iisg_translate_this][download][url] = "git@github.com:IISH/iisg-translate-this.git"
+;projects[iisg_translate_this][download][branch] = "master"
+;projects[iisg_translate_this][subdir] = "custom"
 
 ; modules
 projects[ctools][subdir] = "contrib"
@@ -158,6 +158,9 @@ projects[smtp][version] = "1.3"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.6"
+
+projects[translate_this][subdir] = "contrib"
+projects[translate_this][version] = "1.x-dev"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.2"
