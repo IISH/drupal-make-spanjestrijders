@@ -7,13 +7,10 @@ projects[drupal][version] = "7.43"
 ; Third party libraries, stored in a local git repository.
 
 ; don't use version 4.x, use version 3.6.x !!!
-;libraries[ckeditor][type] = libraries
-;libraries[ckeditor][download][type] = "git"
-;libraries[ckeditor][download][url] = "git://github.com/ckeditor/ckeditor-releases.git"
-;libraries[ckeditor][download][branch] = "full/4.5.x"
-;libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
+;libraries[ckeditor][download][url] = "git://github.com/ckeditor/ckeditor-releases.git"
+;libraries[ckeditor][download][branch] = "full/4.5.x"
 libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor.git"
 libraries[ckeditor][download][branch] = "3.6.0"
 libraries[ckeditor][directory_name] = "ckeditor"
