@@ -7,13 +7,10 @@ projects[drupal][version] = "7.43"
 ; Third party libraries, stored in a local git repository.
 
 ; don't use version 4.x, use version 3.6.x !!!
-;libraries[ckeditor][type] = libraries
-;libraries[ckeditor][download][type] = "git"
-;libraries[ckeditor][download][url] = "git://github.com/ckeditor/ckeditor-releases.git"
-;libraries[ckeditor][download][branch] = "full/4.5.x"
-;libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
+;libraries[ckeditor][download][url] = "git://github.com/ckeditor/ckeditor-releases.git"
+;libraries[ckeditor][download][branch] = "full/4.5.x"
 libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor.git"
 libraries[ckeditor][download][branch] = "3.6.0"
 libraries[ckeditor][directory_name] = "ckeditor"
@@ -97,7 +94,7 @@ projects[email][subdir] = "contrib"
 projects[email][version] = "1.3"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.6"
+projects[entity][version] = "1.7"
 
 projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.18"
@@ -125,6 +122,9 @@ projects[honeypot][version] = "1.17"
 
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
+
+projects[ldap][subdir] = "contrib"
+projects[ldap][version] = "2.0-beta8"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
