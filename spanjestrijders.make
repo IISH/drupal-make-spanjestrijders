@@ -123,6 +123,9 @@ projects[honeypot][version] = "1.17"
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 
+projects[ldap][subdir] = "contrib"
+projects[ldap][version] = "2.0-beta8"
+
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
 
