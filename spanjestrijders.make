@@ -52,7 +52,7 @@ projects[spanjestrijders][download][branch] = "master"
 projects[iish_blocks][version] = "1.0"
 projects[iish_blocks][type] = "module"
 projects[iish_blocks][download][type] = "git"
-projects[iish_blocks][download][url] = "git://github.com/IISH/drupal-module-blocks.git"
+projects[iish_blocks][download][url] = "https://github.com/IISH/drupal-module-blocks.git"
 projects[iish_blocks][download][branch] = "master"
 projects[iish_blocks][subdir] = "custom"
 
@@ -169,7 +169,7 @@ projects[views][subdir] = "contrib"
 projects[views][version] = "3.14"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "4.12"
+projects[webform][version] = "4.14"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
