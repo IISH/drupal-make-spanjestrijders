@@ -11,7 +11,7 @@ libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
 ;libraries[ckeditor][download][url] = "git://github.com/ckeditor/ckeditor-releases.git"
 ;libraries[ckeditor][download][branch] = "full/4.5.x"
-libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor.git"
+libraries[ckeditor][download][url] = "git@github.com:IISH/drupal-library-ckeditor.git"
 libraries[ckeditor][download][branch] = "3.6.0"
 libraries[ckeditor][directory_name] = "ckeditor"
 
@@ -23,13 +23,9 @@ libraries[colorbox][directory_name] = "colorbox"
 
 ; mailchimp API library
 ; don't use the new version but the old version
-;libraries[mailchimp][type] = libraries
-;libraries[mailchimp][download][type] = "get"
-;libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
-;libraries[mailchimp][directory_name] = "mailchimp"
-;libraries[mailchimp][destination] = "libraries"
 libraries[mailchimp][type] = libraries
 libraries[mailchimp][download][type] = "get"
+;libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
 libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
@@ -52,7 +48,7 @@ projects[spanjestrijders][download][branch] = "master"
 projects[iish_blocks][version] = "1.0"
 projects[iish_blocks][type] = "module"
 projects[iish_blocks][download][type] = "git"
-projects[iish_blocks][download][url] = "https://github.com/IISH/drupal-module-blocks.git"
+projects[iish_blocks][download][url] = "git@github.com:IISH/drupal-module-blocks.git"
 projects[iish_blocks][download][branch] = "master"
 projects[iish_blocks][subdir] = "custom"
 
