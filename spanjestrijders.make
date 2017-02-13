@@ -78,10 +78,10 @@ projects[iish_language][subdir] = "custom"
 
 ; modules
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.9"
+projects[ctools][version] = "1.12"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "2.10"
+projects[colorbox][version] = "2.12"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.9"
