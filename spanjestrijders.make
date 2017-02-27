@@ -162,7 +162,7 @@ projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.2"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.14"
+projects[views][version] = "3.15"
 
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "4.14"
