@@ -164,6 +164,9 @@ projects[transliteration][version] = "3.2"
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.15"
 
+projects[views_data_export][subdir] = "contrib"
+projects[views_data_export][version] = "3.2"
+
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "4.14"
 
