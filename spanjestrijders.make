@@ -97,7 +97,7 @@ projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.5"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-beta2"
+projects[file_entity][version] = "2.0-beta3"
 
 projects[flippy][subdir] = "contrib"
 projects[flippy][version] = "1.4"
@@ -124,7 +124,7 @@ projects[mailchimp][subdir] = "contrib"
 projects[mailchimp][version] = "2.12"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.1"
+projects[media][version] = "2.3"
 
 projects[media_colorbox][subdir] = "contrib"
 projects[media_colorbox][version] = "1.0-rc4"
