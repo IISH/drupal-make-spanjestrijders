@@ -97,7 +97,7 @@ projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.5"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-beta3"
+projects[file_entity][version] = "2.0"
 
 projects[flippy][subdir] = "contrib"
 projects[flippy][version] = "1.4"
