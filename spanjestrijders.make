@@ -97,7 +97,7 @@ projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.5"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0"
+projects[file_entity][version] = "2.1"
 
 projects[flippy][subdir] = "contrib"
 projects[flippy][version] = "1.4"
@@ -112,7 +112,7 @@ projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[ldap][subdir] = "contrib"
-projects[ldap][version] = "2.0-beta12"
+projects[ldap][version] = "2.2"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
