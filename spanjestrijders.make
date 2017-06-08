@@ -68,14 +68,6 @@ projects[iish_language][download][url] = "git@github.com:IISH/drupal-module-lang
 projects[iish_language][download][branch] = "master"
 projects[iish_language][subdir] = "custom"
 
-; modified version of translate_this
-;projects[iisg_translate_this][version] = "1.0"
-;projects[iisg_translate_this][type] = "module"
-;projects[iisg_translate_this][download][type] = "git"
-;projects[iisg_translate_this][download][url] = "git@github.com:IISH/iisg-translate-this.git"
-;projects[iisg_translate_this][download][branch] = "master"
-;projects[iisg_translate_this][subdir] = "custom"
-
 ; modules
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.12"
@@ -104,8 +96,9 @@ projects[field_collection][version] = "1.0-beta10"
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.5"
 
+; als media en file_entity in kombinatie worden gebruikt dan moeten dezelfde versie "NUMMERs" gebruikt worden
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-beta2"
+projects[file_entity][version] = "2.1"
 
 projects[flippy][subdir] = "contrib"
 projects[flippy][version] = "1.4"
@@ -120,7 +113,7 @@ projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[ldap][subdir] = "contrib"
-projects[ldap][version] = "2.0-beta12"
+projects[ldap][version] = "2.2"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
@@ -131,6 +124,7 @@ projects[link][version] = "1.3"
 projects[mailchimp][subdir] = "contrib"
 projects[mailchimp][version] = "2.12"
 
+; als media en file_entity in kombinatie worden gebruikt dan moeten dezelfde versie "NUMMERs" gebruikt worden
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.1"
 
@@ -154,9 +148,6 @@ projects[smtp][version] = "1.3"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.6"
-
-projects[translate_this][subdir] = "contrib"
-projects[translate_this][version] = "1.x-dev"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.2"
