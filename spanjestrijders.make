@@ -96,6 +96,7 @@ projects[field_collection][version] = "1.0-beta10"
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.5"
 
+; als media en file_entity in kombinatie worden gebruikt dan moeten dezelfde versie "NUMMERs" gebruikt worden
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.1"
 
@@ -123,8 +124,9 @@ projects[link][version] = "1.3"
 projects[mailchimp][subdir] = "contrib"
 projects[mailchimp][version] = "2.12"
 
+; als media en file_entity in kombinatie worden gebruikt dan moeten dezelfde versie "NUMMERs" gebruikt worden
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.3"
+projects[media][version] = "2.1"
 
 projects[media_colorbox][subdir] = "contrib"
 projects[media_colorbox][version] = "1.0-rc4"
